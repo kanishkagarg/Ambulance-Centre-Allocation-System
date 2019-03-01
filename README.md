@@ -1,0 +1,2 @@
+# Ambulance-Centre-Allocation-System
+In this fast moving world where Cab, Food, Electrician all are just a click away, we tend to forget about taking use of this Technology in our Safety and Health. This project will focus on analyzing some trends in requirement of Healthcare Facility like Accident Prone areas. We will further plot the coordinates of the most appropriate  place for planting an Ambulance Centre. We will be reading various Research papers for this purpose as mentioned below and will therefore try to bring up a good and unified solution.
