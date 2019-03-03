@@ -16,7 +16,8 @@ y = dataset.iloc[:,[43]].values
 
 
 # List for Encoding categorical data
-L = [0,1]
+
+L = [0,1,2,3,4,5,6,7,8,9,10,11,12]
 
 # Encoding categorical data
 # Encoding the Independent Variable
@@ -24,7 +25,7 @@ for i in L:
     from sklearn.preprocessing import LabelEncoder, OneHotEncoder
     labelencoder_X = LabelEncoder()
     X[:, i] = labelencoder_X.fit_transform(X[:,i])
-    onehotencoder = OneHotEncoder(categorical_features = [1])
+    onehotencoder = OneHotEncoder(categorical_features = [i])
     X = onehotencoder.fit_transform(X).toarray()
 
 
